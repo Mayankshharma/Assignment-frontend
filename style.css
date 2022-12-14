@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.navbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #0e8452;
+    transition: 0.4s;
+}
+
+.nav-link {
+    font-size: 1.25em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #ffffff26;
+}
+
+.dropdown-menu {
+    background-color: #0e8452;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #ffffff26;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+
+/* for navbar */
+
+.active-nav {
+    margin-left: 0;
+}
+
+
+/* for main section */
+
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+    background-color: #0e8452;
+    color: #fff;
+}
+
+#menu-btn:focus {
+    box-shadow: 0 0 0 0.25rem #7952b344;
+}
+
+/* .card {
+    margin-right: auto;
+    padding-right: auto;
+} */
+/* .col-sm{
+    margin-left: 10%;
+} */
+.card-title {
+    color: #0e8452;
+}
+
+.card-body {
+    background-color: whitesmoke;
+}
+
+.col-md-4 {
+
+    background-color: hwb(155 84% 2% / 0.955);
+}
+
+.col-md {
+    background-color: hwb(155 84% 2% / 0.955)
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color:#aeb5b2;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    display: flex;
+}
+
+.item1 {
+    align-self: baseline;
+    margin-left: 20%;
+}
+
+.data-container {
+    /* color: yellow; */
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}
+.flex-doctor{
+    margin-left: 20%;
+}
+
+.batchcontact{
+    color: #0e8452;
+
+}
